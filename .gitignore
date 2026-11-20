@@ -1,0 +1,28 @@
+# Dependencies and generated files
+node_modules/
+frontend/node_modules/
+cache/
+artifacts/
+coverage/
+coverage.json
+frontend/dist/
+dist/
+*.log
+*.local
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+*.wallet
+secrets/
+private/
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
